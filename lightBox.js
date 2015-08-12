@@ -17,7 +17,7 @@
 		this.lightBoxBg =$('.lightBox-bg');
 		this.lightBoxMain = $('.lightBox-main');
 		this.imgArea = $('.lightBox-imgArea');
-		this.img = $('.lightBox-img');
+		this.img = $('#lightBox-img');
 		this.prevBtn = $('.lightBox-prev-btn');
 		this.nextBtn = $('.lightBox-next-btn');
 		this.desArea = $('.lightBox-descArea');
@@ -212,7 +212,7 @@
 		add_DOM:function(){
 			var domStr = '<div class="lightBox-imgArea">'+
 						'<span class="lightBox-prev-btn "></span>'+
-						'<img class="lightBox-img" src="images/1-4.jpg" >'+
+						'<img class="lightBox-img" id="lightBox-img" src="images/1-4.jpg" >'+
 						'<span class="lightBox-next-btn "></span>'+
 					'</div>'+
 					'<div class="lightBox-descArea">'+
